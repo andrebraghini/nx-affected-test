@@ -8,7 +8,7 @@ This is an example that simulates the case bwlow:
 
 1. This project was generated using [Nx](https://nx.dev) cli: `npx create-nx-workspace@latest myworkspace`
 
-2. After that I created the [./github/workflows/nodejs.yml](./github/workflows/nodejs.yml#L21) file for Github Actions with the command `npm run affected:apps` that calls `nx affected:apps`.
+2. After that I created the [./.github/workflows/nodejs.yml](./.github/workflows/nodejs.yml#L24) file for Github Actions with the command `npm run affected:apps` that calls `nx affected:apps`.
 
 3. Then I created a new branch `new-branch-example` and push to the server.
 
